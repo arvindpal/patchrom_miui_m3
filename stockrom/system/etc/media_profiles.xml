@@ -102,19 +102,6 @@
              channels="1" />
     </EncoderProfile>
 
-    <EncoderProfile quality="high" fileFormat="mp4" duration="30">
-      <Video codec="h264"
-             bitRate="17000000"
-             width="1920"
-             height="1080"
-             frameRate="30" />
-
-      <Audio codec="aac"
-             bitRate="128000"
-             sampleRate="48000"
-             channels="1" />
-    </EncoderProfile>
-
     <EncoderProfile quality="qcif" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="384000"
@@ -130,41 +117,41 @@
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="12582912"
+             bitRate="3078000"
              width="640"
              height="480"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="196608"
+             bitRate="128000"
              sampleRate="48000"
-             channels="1" />
+             channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="720p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="16777216"
+             bitRate="12000000"
              width="1280"
              height="720"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="196608"
+             bitRate="128000"
              sampleRate="48000"
-             channels="1" />
+             channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="1080p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="25165824"
+             bitRate="17000000"
              width="1920"
              height="1080"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="196608"
+             bitRate="196000"
              sampleRate="48000"
-             channels="1" />
+             channels="2" />
     </EncoderProfile>
 
     <EncoderProfile quality="timelapselow" fileFormat="3gp" duration="30">
@@ -220,7 +207,7 @@
 
     <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="12582912"
+             bitRate="3078000"
              width="640"
              height="480"
              frameRate="30" />
@@ -237,7 +224,7 @@
 
     <EncoderProfile quality="timelapse720p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="16777216"
+             bitRate="12000000"
              width="1280"
              height="720"
              frameRate="30" />
@@ -254,7 +241,7 @@
 
     <EncoderProfile quality="timelapse1080p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="25165824"
+             bitRate="17000000"
              width="1920"
              height="1080"
              frameRate="30" />
@@ -320,13 +307,13 @@
 
     <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
-             bitRate="12582912"
+             bitRate="3078000"
              width="640"
              height="480"
              frameRate="30" />
 
       <Audio codec="aac"
-             bitRate="196608"
+             bitRate="128000"
              sampleRate="48000"
              channels="1" />
     </EncoderProfile>
@@ -415,10 +402,10 @@
          or query the capabilities of the codec at all if it is disabled
     -->
   <VideoEncoderCap name="h264" enabled="true"
-      minBitRate="64000" maxBitRate="25165824"
+      minBitRate="64000" maxBitRate="20000000"
       minFrameWidth="176" maxFrameWidth="1920"
       minFrameHeight="144" maxFrameHeight="1080"
-      minFrameRate="1" maxFrameRate="60" />
+      minFrameRate="1" maxFrameRate="30" />
 
   <VideoEncoderCap name="h263" enabled="true"
       minBitRate="64000" maxBitRate="1000000"
@@ -433,7 +420,7 @@
       minFrameRate="1" maxFrameRate="30" />
 
   <AudioEncoderCap name="aac" enabled="true"
-      minBitRate="8192" maxBitRate="196608"
+      minBitRate="8192" maxBitRate="196000"
       minSampleRate="8000" maxSampleRate="48000"
       minChannels="1" maxChannels="2" />
 

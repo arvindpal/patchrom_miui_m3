@@ -1,3 +1,3 @@
-post-build=samsung/m0xx/m0:4.1.1/JRO03C/I9300XXDLIB:user/release-keys
-post-timestamp=1370104169
-pre-device=m0
+post-build=samsung/m3xx/m3:4.1.2/JZO54K/I9305XXBMA6:user/release-keys
+post-timestamp=1370107191
+pre-device=m3
