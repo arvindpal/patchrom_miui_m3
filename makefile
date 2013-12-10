@@ -6,15 +6,15 @@
 local-zip-file     := stockrom.zip
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
-local-out-zip-file := MIUI_I9300.zip
+local-out-zip-file := MIUI_I9305.zip
 
 # All apps from original ZIP, but has smali files chanded
-local-modified-apps := AGE Camera GalaxyS3Settings m7Parts MiuiUpdater VFX SPN
+local-modified-apps := Camera GalaxyS3Settings MiuiUpdater
 
 local-modified-jars := #framework_ext
 
 # All apks from MIUI
-local-miui-removed-apps := MediaProvider MiuiVideo SuperMarket Updater VoiceAssist BaiduNetworkLocation
+local-miui-removed-apps := MediaProvider MiuiVideo SuperMarket VoiceAssist BaiduNetworkLocation
 
 local-miui-modified-apps := AntiSpam Backup Browser BugReport Calculator Calendar CalendarProvider CloudService Contacts \
 			ContactsProvider DeskClock DownloadProvider DownloadProviderUi Email Exchange2 FileExplorer MiuiCompass \

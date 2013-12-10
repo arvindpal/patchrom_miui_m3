@@ -1,3 +1,4 @@
-Run 'build_miui.sh' to build flashable rom for SGS3.
+Run 'build_miui.sh' to build flashable rom for GT-I9305/SC-03E.
 
-Cheers Z25.
+Thanks to Z25.
+Cheers Nian.
