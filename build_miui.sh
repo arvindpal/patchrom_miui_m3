@@ -89,6 +89,8 @@ rm META-INF/CERT.RSA
 rm META-INF/CERT.SF
 rm META-INF/MANIFEST.MF
 zip -q -r "../../unsigned-miui.zip" 'data' 'META-INF' 'system' 'boot.img'
+java -jar 'other/signapk.jar' 'other/testkey.x509.pem' 'other/testkey.pk8' "unsigned-miui.zip" "miui-$version-4.2.zip"
+
 cd ../..
 fi
 . ../build/envsetup.sh
