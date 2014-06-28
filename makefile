@@ -1,5 +1,5 @@
 #
-# Makefile for ns
+# Makefile for GT-I9305
 #
 
 # The original zip file, MUST be specified by each product
@@ -7,7 +7,7 @@ local-zip-file     := stockrom.zip
 local-density := XHDPI
 
 # The output zip file of MIUI rom, the default is porting_miui.zip if not specified
-local-out-zip-file := MIUI_I9300.zip
+local-out-zip-file := MIUI_I9305.zip
 
 # All apps from original ZIP, but has smali files chanded
 local-modified-apps := 
@@ -36,3 +36,5 @@ include $(PORT_BUILD)/porting.mk
 
 # To define any local-target
 local-zip-misc:
+	cp -rf other/libsqlite.so $(ZIP_DIR)/system/lib/libsqlite.so
+	rm -rf $(ZIP_DIR)/system/media/video/*
