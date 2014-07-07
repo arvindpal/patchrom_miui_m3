@@ -16,7 +16,7 @@ local-modified-apps :=
 local-miui-removed-apps := MediaProvider
 local-miui-apps     := 
 local-miui-modified-apps := 
-PORT_PRODUCT := 
+PORT_PRODUCT := nian_i9300
 
 # All apps need to be removed from original ZIP file 
 local-remove-apps   := SystemUI Gallery2 Stk Launcher2 VideoEditor PicoTts VoiceDialer \
